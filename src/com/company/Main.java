@@ -44,6 +44,10 @@ public class Main {
             }
         }
     }
+    public static void exercise_5(){
+        Calculator calculator = new Calculator();
+        calculator.startCalculator();
+    }
 
     public static void main(String[] args) {
 
