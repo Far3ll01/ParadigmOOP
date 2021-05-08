@@ -52,7 +52,11 @@ public class Main {
         CurrencyConverter converter = new CurrencyConverter();
         converter.runConverter();
     }
-
+    public static void exercise_7(){
+        Rectangle rectangle = new Rectangle();
+        rectangle.readData();
+        rectangle.printValues();
+    }
     public static void main(String[] args) {
 
     }
