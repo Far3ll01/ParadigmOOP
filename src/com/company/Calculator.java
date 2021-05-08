@@ -55,6 +55,7 @@ public class Calculator {
             }
             System.out.println();
         }
+        input.close();
     }
     public void stopCalculator(){
         this.isRunning = false;

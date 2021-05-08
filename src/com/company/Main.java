@@ -48,6 +48,10 @@ public class Main {
         Calculator calculator = new Calculator();
         calculator.startCalculator();
     }
+    public static void exercise_6(){
+        CurrencyConverter converter = new CurrencyConverter();
+        converter.runConverter();
+    }
 
     public static void main(String[] args) {
 
