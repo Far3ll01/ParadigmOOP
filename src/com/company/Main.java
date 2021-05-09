@@ -57,6 +57,12 @@ public class Main {
         rectangle.readData();
         rectangle.printValues();
     }
+    public static void exercise_8(){
+        QuadraticEquation equation = new QuadraticEquation();
+        equation.readData();
+        equation.solveEquation();
+        equation.showResults();
+    }
     public static void main(String[] args) {
 
     }
