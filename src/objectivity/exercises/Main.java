@@ -28,7 +28,7 @@ public class Main {
         l.removeDuplicates();
         System.out.println(l);
     }
-    public static void main(String[] args) {
+    public static void exercise_3(){
         Time t1 = new Time(10, 56);
         Time t2 = new Time(0, 123);
         System.out.println("t1 = " + t1);
@@ -40,5 +40,8 @@ public class Main {
         System.out.println("t1 * 2 = " + t1.multiplyTime(2));
         Time t3 = new Time("3 h 17 min");
         System.out.println("Konstruktor z łańcuchem: " + t3);
+    }
+    public static void main(String[] args) {
+
     }
 }
